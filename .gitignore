@@ -40,10 +40,10 @@ __pycache__/
 *$py.class
 
 # Virtual Environment
+.venv/
 venv/
 env/
 ENV/
-.venv/
 
 # SQLite database
 *.db
@@ -63,4 +63,33 @@ ENV/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+Thumbs.db
+
+# Frontend build output
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Node modules
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
 Thumbs.db
